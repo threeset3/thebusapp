@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -17,4 +17,9 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+	<style name="NoActionBar" parent="@android:style/Theme.Light">
+	    <item name="android:windowActionBar" tools:ignore="NewApi">false</item>
+	    <item name="android:windowNoTitle">true</item>
+	</style> 
+    
 </resources>

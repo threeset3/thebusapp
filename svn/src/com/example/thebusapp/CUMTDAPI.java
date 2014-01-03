@@ -1,8 +1,6 @@
 package com.example.thebusapp;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
@@ -12,10 +10,9 @@ import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.*;
 
-import android.content.res.Resources;
 import android.util.Log;
 
-// wrapper around cumtd's api
+/* wrapper around cumtd's api
 // http://developer.cumtd.com/
 public class CumtdAPI {
 	Resources res = CumtdApplication.getAppContext().getResources();
@@ -43,11 +40,13 @@ public class CumtdAPI {
 		}
 		return departures;
 	}
-	
+*/	
+public class CumtdAPI {
 	// we're going to throw the IOException all the way to the ui...
+	@SuppressWarnings("unused")
 	private JSONObject apiRequest(String url) throws IOException {
 		Log.d("Making request to:", url);
-		// perform http request
+		// perform http request!@@ sdfdf
 		HttpClient httpclient = new DefaultHttpClient();
 		HttpGet httpget = new HttpGet(url);
 		ResponseHandler<String> responseHandler = new BasicResponseHandler();
