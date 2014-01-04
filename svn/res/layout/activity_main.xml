@@ -26,6 +26,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
         android:ems="10"
-        android:hint="@string/lookup" />
+        android:hint="@string/lookup"
+        android:lines="1" />
     
 </RelativeLayout>
