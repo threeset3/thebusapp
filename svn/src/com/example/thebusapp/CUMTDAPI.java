@@ -41,7 +41,7 @@ public class CumtdAPI {
 		return departures;
 	}
 */	
-public class CumtdAPI {
+public class CUMTDAPI{
 	// we're going to throw the IOException all the way to the ui...
 	@SuppressWarnings("unused")
 	private JSONObject apiRequest(String url) throws IOException {

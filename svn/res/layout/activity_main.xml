@@ -27,8 +27,11 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="@string/lookup" />
-
+        android:hint="@string/lookup" 
+        android:inputType="textAutoCorrect"
+        android:imeOptions="actionSearch"/>
+    <!-- auto search button in the keypad once user enters what is to be searched -->
+   		
     <Button
         android:id="@+id/button1"
         android:layout_width="170dp"
