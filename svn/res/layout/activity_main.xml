@@ -25,7 +25,17 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="@string/lookup" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="@string/button" />
     
 </RelativeLayout>
