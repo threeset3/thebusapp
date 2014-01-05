@@ -27,7 +27,6 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="30dp"
         android:ems="10"
-<<<<<<< HEAD
         android:hint="@string/lookup" />
 
     <Button
@@ -38,9 +37,4 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="69dp"
         android:text="@string/button" />
-=======
-        android:hint="@string/lookup"
-        android:lines="1" />
->>>>>>> b0686f8c9bcd3c33eaea0eb604ef90e61f351ad3
-    
 </RelativeLayout>
