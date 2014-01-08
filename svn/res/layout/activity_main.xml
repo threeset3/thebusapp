@@ -17,6 +17,16 @@
         android:text="@string/app_name"
         android:textColor="#ffffff"
         android:textSize="42sp" />
+    <!-- auto search button in the keypad once user enters what is to be searched -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:text="@string/button" />
 
     <EditText
         android:id="@+id/editText1"
@@ -25,19 +35,23 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="@string/lookup" 
-        android:inputType="textAutoCorrect"
-        android:imeOptions="actionSearch"/>
-    <!-- auto search button in the keypad once user enters what is to be searched -->
-   		
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="170dp"
-        android:layout_height="40dp"
+        android:hint="@string/lookup"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoCorrect" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
         android:layout_below="@+id/editText1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="69dp"
-        android:text="@string/button" />
+        android:layout_marginTop="16dp"
+        android:text="@string/nearby"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:clickable="true"
+        android:onClick="mapView" />
+
 </RelativeLayout>
